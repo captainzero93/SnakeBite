@@ -1,4 +1,8 @@
 -=Changelog=-
+0.9.2.5
+SnakeBite:
+Updated MD5 hash for 00.dat.
+
 0.9.2.4
 SnakeBite:
 Corrected MD5 hash and 00/01.dat sizes.

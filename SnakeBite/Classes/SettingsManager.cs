@@ -12,7 +12,7 @@ namespace SnakeBite
     public class SettingsManager
     {
         // GAMEVERSION > You will have to update everything here when the game updates, search for GAMEVERSION to find other areas than need to be updated
-        internal static string vanillaDatHash = "E9CBEB9A100F6C2C740853206DFE60321240EF2F06D9D193851C5AE45D8D46BF"; //expected original hash for 1.0.15.4 // To generate this run snakebite and toggle mods off, then look for the latest '[UpdateDatHash] Updated 00/01 dat hash to' in the log or grab it from the snakebite.xml
+        internal static string vanillaDatHash = "B28BEDBC7B0A66F43CAFF81D2ECD96DF1240EF2F06D9D193851C5AE45D8D46BF"; //expected original hash for 1.0.15.4 // To generate this run snakebite and toggle mods off, then look for the latest '[UpdateDatHash] Updated 00/01 dat hash to' in the log or grab it from the snakebite.xml
         internal static Version IntendedGameVersion = new Version(1, 0, 15, 4);
 
         internal const int MAXZEROSIZE = 496340000; // ballpark estimates of vanilla archive filesizes. max/min by 10k? morbid do you want to document your reasoning on this?
